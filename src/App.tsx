@@ -4,6 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import rutas from './RouteConfig';
 import Menu from './Utils/Menu';
+import configurarValidaciones from './Validaciones';
+
+configurarValidaciones();
 
 function App() {
 

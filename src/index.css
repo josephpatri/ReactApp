@@ -19,3 +19,7 @@ code {
 .color{
   color : blue;
 }
+
+form > a {
+  margin: 1rem;  
+}
