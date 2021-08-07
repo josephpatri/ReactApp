@@ -1,5 +1,3 @@
-import { ReactElement } from "react";
-
 export default function Button(props: buttonProps){
     return(
         <button type={props.type} className={props.className}
