@@ -9,6 +9,9 @@ import FormGroupText from "../Utils/FormGroupText";
 import { actoresCreacionDTO } from "./Actores.model";
 
 export default function FormularioActores(props: formularioActoresProps) {
+
+    
+
     return (
         <Formik
             initialValues={props.modelo}

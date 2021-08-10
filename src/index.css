@@ -23,3 +23,7 @@ code {
 form > a {
   margin: 1rem;  
 }
+
+.pointer{
+  cursor: pointer;
+}
