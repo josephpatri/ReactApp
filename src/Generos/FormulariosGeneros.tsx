@@ -11,6 +11,7 @@ export default function FormulariosGeneros(props : formulariosGenerosprops){
 
             validationSchema={Yup.object({
                 nombre: Yup.string().required('This field is required')
+                .max(50, 'La longitud maxima debe de ser de 50 caracteres')
                 .primeraLetraMayuscula()
             })}
         >
